@@ -21,12 +21,12 @@ install:
   # pip install ansible, molecule & apache-libcloud
   pip install --user ansible==2.8.6 molecule[gce] apache-libcloud
 script:
-- molecule --debug create
-- molecule --debug converge
-- molecule --debug verify
+- molecule create
+- molecule converge
+- molecule verify
 # - molecule --debug test
 after_script:
-- molecule --debug destroy
+- molecule destroy
 notifications:
   slack:
     rooms:
