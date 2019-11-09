@@ -22,7 +22,7 @@ install:
   pip install --user ansible==2.8.6 molecule[gce] apache-libcloud
 script:
 - molecule create
-- molecule converge
+- molecule --debug converge
 - molecule verify
 # - molecule --debug test
 after_script:
