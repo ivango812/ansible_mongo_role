@@ -1,6 +1,7 @@
+[![Build Status](https://travis-ci.com/ivango812/ansible_mongo_role.svg?branch=master)](https://travis-ci.com/ivango812/ansible_mongo_role)
+
 # ansible_mongo_role
 Ansible mongo role
-
 
 wget https://raw.githubusercontent.com/vitkhab/gce_test/c98d97ea79bacad23fd26106b52dee0d21144944/.travis.yml
 # генерируем ключ для подключения по SSH
