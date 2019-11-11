@@ -2,3 +2,15 @@
 
 # ansible_mongo_role
 Ansible mongo role
+
+# Install
+
+Add
+
+```
+- src: https://github.com/ivango812/ansible_mongo_role.git
+  version: 1.0.0
+  name: db
+```
+
+to `requirements.yml`
